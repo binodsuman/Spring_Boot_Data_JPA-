@@ -16,3 +16,22 @@ How to Run:
     
  6. You notice in your databse one table created employee and one record also.
  7. GET http://localhost:8080/hr/all to fetch all data.
+     [
+      {
+          "id": 6,
+          "name": "Bill Gate",
+          "age": 52
+      },
+      {
+          "id": 7,
+          "name": "Binod Suman",
+          "age": 32
+      }
+   ]
+ 8. GET http://localhost:8080/hr/7 to fetch single record  
+    {
+    "id": 7,
+    "name": "Binod Suman",
+    "age": 32
+   }
+ 
